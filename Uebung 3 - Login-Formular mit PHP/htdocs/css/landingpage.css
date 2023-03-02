@@ -1,0 +1,14 @@
+@import "base.css";
+
+#locations {
+    list-style-type: none;
+}
+
+#locations li {
+    display: inline;
+    padding-right: 1em;
+}
+
+#register-email label {
+    display: none;
+}

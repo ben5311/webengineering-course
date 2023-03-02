@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form method="POST" action="users/check-login">
+    <div>
+        <label for="inputName">Benutzername:</label>
+        <input type="text" name="user" id="inputName" placeholder="Name" required>
+    </div>
+ 
+    <div>
+        <label for="inputPasswort">Passwort:</label>
+        <input type="password" name="pw" id="inputPasswort" placeholder="Passwort" required>
+    </div>
+ 
+    <div>
+        <button type="submit">Login</button>
+    </div>
+
+    <div>
+        <p>Neue Nutzer: <a href="users/register"> hier registrieren</a></p>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+[2021-05-18T21:31:46.306] [ERROR] errorHandler - Malformed JSON body: Unexpected token d in JSON at position 50
+[2021-05-18T21:31:55.143] [ERROR] errorHandler - Malformed JSON body: Unexpected token d in JSON at position 50
+[2021-05-18T21:32:23.022] [ERROR] errorHandler - Invalid JSON body
+[2021-05-18T21:33:12.594] [ERROR] errorHandler - Invalid JSON body
+[2021-05-18T21:34:16.246] [ERROR] errorHandler - Invalid JSON body
+[2021-05-18T22:01:01.905] [ERROR] errorHandler - Malformed JSON body: Unexpected token  in JSON at position 33
+[2021-05-18T22:01:12.240] [ERROR] errorHandler - Malformed JSON body: Unexpected token  in JSON at position 33
+[2021-05-18T22:01:18.821] [ERROR] errorHandler - Malformed JSON body: Unexpected token s in JSON at position 37
+[2021-05-18T22:01:21.167] [ERROR] errorHandler - Malformed JSON body: Unexpected token \ in JSON at position 37
+[2021-05-31T21:45:09.494] [ERROR] errorHandler - Invalid JSON body
+[2021-05-31T21:45:36.298] [ERROR] errorHandler - Invalid JSON body
+[2021-05-31T21:45:47.930] [ERROR] errorHandler - Invalid JSON body
+[2021-05-31T21:46:11.720] [ERROR] errorHandler - Invalid JSON body
+[2021-05-31T21:48:31.225] [ERROR] errorHandler - Malformed JSON body: Unexpected token } in JSON at position 34
+[2021-05-31T21:49:52.445] [ERROR] errorHandler - Invalid JSON body
+[2021-05-31T21:51:31.175] [ERROR] errorHandler - TypeError: Cannot read property 'description' of null
+    at C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\routes\todos.js:57:67
+    at Layer.handle [as handle_request] (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express-json-validator-middleware\src\index.js:63:5
+    at Layer.handle [as handle_request] (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\route.js:137:13)
+    at validationErrorHandler (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\middlewares\errorHandler.js:26:9)
+    at Layer.handle [as handle_request] (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express\lib\router\route.js:137:13)
+    at middleware (C:\Users\benja\OneDrive\Dokumente\Eigene Dokumente\Studium\Webengineering\Übungen\Übung 8\node_modules\express-validator\src\middlewares\check.js:16:13)
+[2021-06-01T16:38:35.759] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:48:22.580] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:51:23.996] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:52:08.280] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:52:28.011] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:52:41.959] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:52:51.620] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:52:57.354] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:53:48.935] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:53:55.368] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:54:07.010] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:56:00.752] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:56:08.839] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:56:39.599] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:58:06.590] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T16:59:56.571] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T17:00:01.157] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T17:20:48.935] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T17:21:02.256] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T18:22:04.784] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T18:22:12.598] [ERROR] errorHandler - Invalid JSON body
+[2021-06-01T18:53:15.176] [ERROR] errorHandler - Invalid JSON body

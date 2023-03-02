@@ -1,0 +1,15 @@
+{
+  "name": "benja/uebung3",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "benja",
+      "email": "benjamin.heimann@outlook.de"
+    }
+  ],
+  "require": {
+    "mustache/mustache": "~2.5"
+  }
+}

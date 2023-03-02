@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "TodoEntry",
+  "description": "A ToDo entry in a ToDo list",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier of the TodoEntry",
+      "type": "integer",
+      "minimum": 1
+    },
+    "description": {
+      "description": "The description of the TodoEntry",
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "description": "The state of the TodoEntry",
+      "type": "string",
+      "enum": [
+        "open",
+        "done"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

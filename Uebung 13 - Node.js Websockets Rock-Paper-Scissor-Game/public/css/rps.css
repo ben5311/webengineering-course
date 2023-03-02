@@ -1,0 +1,29 @@
+#player {
+    margin-bottom: 10px;
+}
+
+#choices {
+    display: none;
+}
+
+#infos {
+    margin: 10px;
+}
+
+#infos p {
+    margin: 2px;
+}
+
+#infos p[data-highlight="info"] {
+    color: dodgerblue;
+    margin-bottom: 5px;
+}
+
+#infos p[data-highlight="error"] {
+    color: red;
+}
+
+#infos p[data-highlight="finished"] {
+    font-weight: bold;
+    margin-bottom: 15px;
+}

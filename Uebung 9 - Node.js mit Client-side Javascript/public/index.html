@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrierung</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="register" id="register" method="POST">
+    <div>
+        <label for="inputName">Benutzername:</label>
+        <input type="text" name="user"
+               id="inputName" placeholder="Name">
+    </div>
+
+    <div>
+        <label for="inputPasswort">Passwort:</label>
+        <input type="password" name="pw"
+               id="inputPasswort" placeholder="Passwort">
+    </div>
+
+    <div>
+        <label for="inputNote">Note:</label>
+        <input type="number" name="note" id="inputNote" placeholder="Note">
+    </div>
+
+    <div>
+        <button type="submit" id="submit">Registrieren</button>
+    </div>
+
+    <div>
+        <button id="print" type="button">Werte anzeigen</button>
+    </div>
+
+</form>
+<div id="output">
+
+</div>
+
+<script src="js/register_frontend.js"></script>
+</body>
+</html>

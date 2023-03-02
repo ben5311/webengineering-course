@@ -1,0 +1,36 @@
+html {
+    background-image: url("../images/landingpage.jpg");
+    background-size: auto 100%;
+}
+
+body {
+    height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#locations {
+    list-style-type: none;
+}
+
+#locations li {
+    display: inline;
+    padding-right: 1em;
+}
+
+#register-email label {
+    display: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
